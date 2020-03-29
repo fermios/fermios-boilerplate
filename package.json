@@ -1,0 +1,10 @@
+{
+  "name": "fermios-boilerplate",
+  "version": "0.1.0",
+  "description": "boilerplate",
+  "main": "index.js",
+  "repository": "git@github.com:fermios/fermios-boilerplate.git",
+  "author": "blenoski & floustao",
+  "license": "MIT",
+  "private": false
+}
