@@ -1,8 +1,14 @@
 {
   "name": "workspace-a",
   "version": "1.0.0",
-
+  "scripts": {
+    "build": "webpack"
+  },
   "dependencies": {
     "cross-env": "5.0.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
