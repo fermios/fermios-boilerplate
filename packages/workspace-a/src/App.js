@@ -1,20 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { hot } from 'react-hot-loader';
 
-class App extends React.Component {
-  state = {
-    test: 0
-  };
+function App () {
+  const [count, setCount] = useState(0);
 
-  render() {
-    return (
+  return (
+    <div>
+      <h1>Hello World!</h1>
+
+      <h3 className={count > 3 ? 'warning' : null}>{count}</h3>
+
       <div>
-        <h1>Hello World</h1>
-        <button onClick={() => this.setState({ test: this.state.test + 1})}>
-          {this.state.test}
-        </button>
+        <button onClick={() => setCount(count + 1)}>+</button>
+        <button onClick={() => setCount(count - 1)}>-</button>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
-export default App;
+export default hot(module)(App);
