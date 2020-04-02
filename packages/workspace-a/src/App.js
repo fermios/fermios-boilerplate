@@ -6,7 +6,7 @@ function App () {
 
   return (
     <div>
-      <h1>Hello World!</h1>
+      <h1>Hello World</h1>
 
       <h3 className={count > 3 ? 'warning' : null}>{count}</h3>
 
