@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { hot } from 'react-hot-loader';
 
-function App () {
+function App() {
   const [count, setCount] = useState(0);
 
   return (
@@ -16,6 +16,6 @@ function App () {
       </div>
     </div>
   );
-};
+}
 
 export default hot(module)(App);
