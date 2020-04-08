@@ -6,7 +6,8 @@
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "dev:hot": "yarn dev -- --hot",
-    "test": "jest"
+    "test": "jest",
+    "format": "pretty-quick"
   },
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
@@ -28,6 +29,8 @@
     "css-loader": "^3.4.2",
     "html-webpack-plugin": "^4.0.3",
     "jest": "^25.2.4",
+    "prettier": "^2.0.4",
+    "pretty-quick": "^2.0.1",
     "style-loader": "^1.1.3",
     "webpack": "^4.42.1",
     "webpack-bundle-analyzer": "^3.6.1",
